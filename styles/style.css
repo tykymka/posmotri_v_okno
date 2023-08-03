@@ -41,7 +41,8 @@ ol {
 }
 
 .content {
-  width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
   display: flex;
   align-items: end;
   gap: 30px;
@@ -106,6 +107,7 @@ ol {
   line-height: normal;
   background: transparent;
   appearance: none;
+  padding: 1px 0;
 }
 
 .search-form__textfield:focus {
@@ -199,7 +201,7 @@ ol {
 }
 
 .content__list {
-  width: 100%;
+  min-width: 398px;
   position: relative;
   overflow: auto;
   height: 298px;
