@@ -147,6 +147,7 @@ ol {
 }
 
 .button {
+  font-family: inherit;
   height: 34px;
   border: 1px solid currentColor;
   color: #fff;
